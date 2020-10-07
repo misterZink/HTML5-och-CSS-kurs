@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset='utf-8'>
+    <title>Inlämninsuppgift 1 - Undersökningsformulär</title>
+</head>
+<body>
 
+    <h1>Undersökningsformulär för anställda</h1>
+    <p>Detta är ett Undersökningsformulär för anställda på Noname AB <br><br> Vänligen fyll i alla uppgifter nedan</p>
+
+    <form>
+    
+        <label for="fname" name="fname"><strong>Förnamn:</strong></label>
+        <br>
+        <input type="text" name="fname" size="35" maxlength="20">
+        <br>
+        <label for="lname" name="lname"><strong>Efternamn:</strong></label>
+        <br>
+        <input type="text" name="lname" size="35" maxlength="20">
+        <br>
+        <br>
+        <label for="describe" name="describe">Kort beskrivning:</label> 
+        <br>
+        <textarea name="describe" rows="4" cols="30" placeholder="Skriv en kort beskriving om dig själv....." style="background-color: #eaeaea;"></textarea>
+        <br>
+        <br>
+        <label for="sport" name="sport"><em>Tränar du någon sport:</em></label> 
+        <br>
+        <input type="radio" id="jaSport" name="sport" value="jaSport">
+        <label for="jaSport">Ja</label>
+        <br>
+        <input type="radio" id="nejSport" name="sport" value="nejSport">
+        <label for="NejSport">Nej</label>
+        <br>
+        <br>
+        <br>
+        <label for="föredraLäsa" name="föredraLäsa"><strong><em>Vilket/vilka sätt föredrar du att läsa på:</em></strongZ></label>
+        <br>
+        <input type="checkbox" id="böcker" name="föredraLäsa">
+        <label for="böcker">1. Böcker</label> <br>
+        <input type="checkbox" id="tidning" name="föredraLäsa">
+        <label for="tidning">2. Tidningar</label> <br>
+        <input type="checkbox" id="online" name="föredraLäsa">
+        <label for="online">3. Online</label> <br>
+        
+    </form>
+
+</body>
+</html>
