@@ -11,31 +11,31 @@
 
     <form>
     
-        <label for="fname" name="fname"><strong>Förnamn:</strong></label>
+        <label for="fname"><strong>Förnamn:</strong></label>
         <br>
-        <input type="text" name="fname" size="35" maxlength="20">
+        <input type="text" id="fname" size="35" maxlength="20">
         <br>
-        <label for="lname" name="lname"><strong>Efternamn:</strong></label>
+        <label for="lname" ><strong>Efternamn:</strong></label>
         <br>
-        <input type="text" name="lname" size="35" maxlength="20">
-        <br>
-        <br>
-        <label for="describe" name="describe">Kort beskrivning:</label> 
-        <br>
-        <textarea name="describe" rows="4" cols="30" placeholder="Skriv en kort beskriving om dig själv....." style="background-color: #eaeaea;"></textarea>
+        <input type="text" id="lname" size="35" maxlength="20">
         <br>
         <br>
-        <label for="sport" name="sport"><em>Tränar du någon sport:</em></label> 
+        <label for="describe">Kort beskrivning:</label> 
+        <br>
+        <textarea id="describe" rows="4" cols="30" placeholder="Skriv en kort beskriving om dig själv....." style="background-color: #eaeaea; resize: none;" ></textarea>
+        <br>
+        <br>
+        <label><em>Tränar du någon sport:</em></label> 
         <br>
         <input type="radio" id="jaSport" name="sport" value="jaSport">
         <label for="jaSport">Ja</label>
         <br>
         <input type="radio" id="nejSport" name="sport" value="nejSport">
-        <label for="NejSport">Nej</label>
+        <label for="nejSport">Nej</label>
         <br>
         <br>
         <br>
-        <label for="föredraLäsa" name="föredraLäsa"><strong><em>Vilket/vilka sätt föredrar du att läsa på:</em></strongZ></label>
+        <label><strong><em>Vilket/vilka sätt föredrar du att läsa på:</em></strong></label>
         <br>
         <input type="checkbox" id="böcker" name="föredraLäsa">
         <label for="böcker">1. Böcker</label> <br>
