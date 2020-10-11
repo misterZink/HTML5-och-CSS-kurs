@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset='utf-8'>
+    <title>Inlämninsuppgift 1 - Undersökningsformulär</title>
+</head>
+<body>
+
+    <h1>Undersökningsformulär för anställda</h1>
+    <br>
+    <br>
+    <p>
+        Detta är ett Undersökningsformulär för anställda på Noname AB, <br>Det är en undersökning som alla våra anställda ska göra.<br><br>
+    </p>
+    <br>
+    <br>
+    <h2>Vänligen fyll i alla uppgifter nedan:</h2>
+
+    <form>
+    
+        <label for="fname"><strong>Förnamn:</strong></label>
+        <br>
+        <input type="text" id="fname" size="35" maxlength="20">
+        <br>
+        <label for="lname" ><strong>Efternamn:</strong></label>
+        <br>
+        <input type="text" id="lname" size="35" maxlength="20">
+        <br>
+        <br>
+        <label for="describe">Kort beskrivning:</label> 
+        <br>
+        <textarea id="describe" rows="4" cols="30" placeholder="Skriv en kort beskriving om dig själv....." style="background-color: #eaeaea; resize: none;" ></textarea>
+        <br>
+        <br>
+        <label><em>Tränar du någon sport:</em></label> 
+        <br>
+        <input type="radio" id="jaSport" name="sport" value="jaSport">
+        <label for="jaSport">Ja</label>
+        <br>
+        <input type="radio" id="nejSport" name="sport" value="nejSport">
+        <label for="nejSport">Nej</label>
+        <br>
+        <br>
+        <br>
+        <label><strong><em>Vilket/vilka sätt föredrar du att läsa på:</em></strong></label>
+        <br>
+        <input type="checkbox" id="böcker" name="föredraLäsa">
+        <label for="böcker">1. Böcker</label> <br>
+        <input type="checkbox" id="tidning" name="föredraLäsa">
+        <label for="tidning">2. Tidningar</label> <br>
+        <input type="checkbox" id="online" name="föredraLäsa">
+        <label for="online">3. Online</label> <br>
+        <br>
+        <label for="genre"><strong>Välj favorit genre:</strong></label>
+        <br>
+        <select name="Favorit genre:" id="genre">
+          <option disabled selected value style="display:none;">--Vänligen välj--</option>
+          <option value="action">Action</option>
+          <option value="romantik">Romantik</option>
+          <option value="komedi">Komedi</option>
+          <option value="drama">Drama</option>
+          <option value="skräck">Skräck</option>
+        </select> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <button type="submit" style="font-size: medium; font-weight: 600;">Skicka in</button>
+        
+    </form>
+
+</body>
+</html>
