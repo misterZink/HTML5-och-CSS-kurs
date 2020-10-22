@@ -62,3 +62,11 @@ a:visited {
 .wrapper {
   padding: 5px;
 }
+
+ul {
+  text-align: left;
+}
+
+li {
+  margin-bottom: 6px;
+}
