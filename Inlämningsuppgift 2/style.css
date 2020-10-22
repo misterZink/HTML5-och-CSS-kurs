@@ -24,9 +24,13 @@ p {
   padding: 5px;
 }
 
-h1,
-h2,
-h3 {
+h1 {
+  font-size: 36pt;
+  margin-bottom: 75px;
+  text-decoration: underline;
+}
+
+h1,h2, h3 {
   font-family: "Lobster", cursive;
   font-weight: 900;
 }
