@@ -53,9 +53,9 @@ a:visited {
 .sidebar {
   width: 10%;
   margin-left: 90%;
-  position: fixed;
+  position: absolute;
   border: 2px solid #222831;
-  top: 50px;
+  top: 6px;
   right: 0;
 }
 
