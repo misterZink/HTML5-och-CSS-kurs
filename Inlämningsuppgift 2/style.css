@@ -51,11 +51,11 @@ a:visited {
   color: #001b1d;
 }
 .sidebar {
-  width: 10%;
+  width: 14%;
   margin-left: 90%;
   position: absolute;
   border: 2px solid #222831;
-  top: 7px;
+  top: 6px;
   right: 0;
 }
 
