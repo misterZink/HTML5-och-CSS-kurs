@@ -11,6 +11,7 @@ body {
 div {
   background-color: #393e46;
   margin-bottom: 50px;
+
 }
 
 p {
@@ -22,6 +23,7 @@ p {
   margin: auto;
   width: 70%;
   padding: 5px;
+  border: solid 2px  #121416;
 }
 
 h1 {
@@ -57,10 +59,12 @@ a:visited {
   border: 2px solid #222831;
   top: 6px;
   right: 0;
+
 }
 
 .wrapper {
   padding: 5px;
+  border: solid 2px  #121416;
 }
 
 ul {
