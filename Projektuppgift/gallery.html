@@ -31,7 +31,7 @@
           </a>
 
           <div class="navbar-links">
-            <ul class="nav-linklist">
+            <ul class="nav-linklist" id="hamburger">
               <li>
                 <a class="nav-link-active" href="#">Home</a>
               </li>
@@ -45,6 +45,9 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
           </div>
         </nav>
       </header>
@@ -164,5 +167,16 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("hamburger");
+        if (x.style.display === "flex") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "flex";
+        }
+      }
+    </script>
   </body>
 </html>
