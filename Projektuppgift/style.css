@@ -10,6 +10,10 @@ body {
   font-size: 1rem;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .grid-container {
   display: grid;
   width: 100%;
@@ -18,7 +22,7 @@ body {
     "head head"
     "news  main"
     "foot  foot";
-  grid-template-rows: 60px 1fr 278px;
+  grid-template-rows: 60px 1fr 285px;
   grid-template-columns: 350px 1fr;
 }
 
@@ -34,6 +38,7 @@ body {
   flex-direction: column;
   text-align: center;
   height: 590px;
+  margin: 10px 0;
 }
 
 .grid-container > main {
@@ -41,6 +46,7 @@ body {
   background-color: #ffffff;
   text-align: center;
   height: 590px;
+  margin: 10px 0;
 }
 
 .grid-container > footer {
@@ -107,6 +113,8 @@ nav {
   margin-top: 10px;
 }
 
+
+
 .news-1,
 .news-2,
 .news-3 {
@@ -124,7 +132,6 @@ nav {
 
 .h5-footer {
   font-size: 1.25rem;
-  text-decoration: underline;
   text-transform: uppercase;
   margin-bottom: 1rem;
   font-weight: 700;
@@ -198,12 +205,26 @@ nav {
 
 .news-articles {
   overflow-y: scroll;
-  scrollbar-width: none;
-  height: 523px;
+  height: 516px;
 }
 
 .news-articles::-webkit-scrollbar {
-  display: none;
+  width: 5px;
+}
+
+/* Track */
+.news-articles::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.news-articles::-webkit-scrollbar-thumb {
+  background: rgb(216, 216, 216); 
+}
+
+/* Handle on hover */
+.news-articles::-webkit-scrollbar-thumb:hover {
+  background: rgb(168, 168, 168); 
 }
 
 .paragraphs {
@@ -223,4 +244,53 @@ nav {
 
 .social-logo > a:hover {
   opacity: 0.7;
+}
+
+.navbar-links a:hover {
+color: #1d2124;
+}
+
+.icon {
+  color: white;
+  display: none;
+  text-decoration: none;
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width: 680px) {
+
+
+.nav-linklist {
+  display: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  top: 43px;
+  height: 50px;
+  width: 100%;
+  background-color: #1d2124;
+}
+
+
+.icon {
+  display: flex;
+  transition: all .5s ease-in-out;
+}
+
+}
+
+
+@media only screen and (min-width: 681px) {
+  .nav-linklist {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1.05rem;
+  }
 }
