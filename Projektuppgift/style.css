@@ -46,7 +46,7 @@ body {
   background-color: #ffffff;
   text-align: center;
   height: 590px;
-  margin: 10px 0;
+  margin: 10px 20px;
 }
 
 .grid-container > footer {
@@ -178,9 +178,8 @@ nav {
   border-radius: 10px;
   background-color: #dbdbdbad;
   margin-top: 10px;
-  margin-left: 15px;
   height: 580px;
-  width: 97%;
+  width: 100%;
 }
 
 .main-header {
@@ -258,7 +257,31 @@ nav {
   font-size: 1.5rem;
 }
 
+
+@media only screen and (max-width: 860px) {
+  .grid-container {
+    grid-template-areas:
+    "head"
+    "main"
+    "news"
+    "foot";
+
+    grid-template-rows: 60px 1fr 1fr 285px;
+    grid-template-columns: 1fr;
+  }
+
+  .news-group {
+    margin: 0 auto;
+
+  }
+  .news {
+    margin: 0;
+  }
+  
+
 @media only screen and (max-width: 680px) {
+
+
   .nav-linklist {
     display: none;
     flex-direction: row;
@@ -278,7 +301,7 @@ nav {
   }
 }
 
-@media only screen and (min-width: 681px) {
+@media only screen and (min-width: 861px) {
   .nav-linklist {
     display: flex;
     flex-direction: row;
