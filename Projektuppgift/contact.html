@@ -11,15 +11,14 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      media="screen and (max-width: 600px)"
-      href="smallscreen.css"
+      href="pages.css"
     />
   </head>
   <body>
     <div class="grid-container">
       <header>
         <nav>
-          <a class="nav-brand" href="#">
+          <a class="nav-brand" href="index.html">
             <img
               class="logo"
               src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg"
@@ -33,16 +32,16 @@
           <div class="navbar-links">
             <ul class="nav-linklist" id="hamburger">
               <li>
-                <a class="nav-link-active" href="#">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li>
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="random.html">Random</a>
               </li>
               <li>
-                <a class="nav-link" href="#">Random</a>
+                <a class="nav-link" href="team.html">Team</a>
               </li>
               <li>
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link-active" href="#">Contact</a>
               </li>
             </ul>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -52,68 +51,20 @@
         </nav>
       </header>
 
-      <aside class="news">
-        <article class="news-group">
-          <h2 class="header-news">NEWS</h2>
-          <div class="news-articles">
-            <div class="news-1">
-              <h4>News 1</h4>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Similique ipsam quibusdam velit, dolorum tenetur earum fugit
-                expedita sint quae recusandae, id magnam asperiores nam
-                necessitatibus illo consectetur vitae molestiae. Consequatur?
-              </p>
-            </div>
-            <div class="news-2">
-              <h3>News 2</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                ullam deserunt saepe accusamus, rerum adipisci. Reprehenderit
-                beatae, nisi placeat blanditiis veritatis voluptates numquam
-                odio. Repellat facilis nisi eum ipsum iusto.
-              </p>
-            </div>
-            <div class="news-3">
-              <h3>News 3</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Reprehenderit enim placeat esse et id eos dolorem voluptatum
-                minus cum dolorum, inventore quis! Dicta, modi suscipit. Error
-                eaque quasi quaerat eligendi!
-              </p>
-            </div>
-          </div>
-        </article>
-      </aside>
-
       <main>
         <div class="main-div">
-          <h1 class="main-header">Header</h1>
+          <h1 class="main-header">Contact us</h1>
 
-          <div class="paragraphs">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
-              nemo labore est aliquam beatae, deleniti molestias sit, eos
-              praesentium necessitatibus non ab velit error, quibusdam
-              consectetur magni nulla mollitia. Ex.
-            </p>
-
-            <p></p>
-
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
-              nesciunt totam eligendi enim, blanditiis, atque quisquam dicta
-              amet tenetur reprehenderit quas voluptate error necessitatibus
-              sunt nostrum ducimus, velit quos voluptas.
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-              consequuntur voluptatem a repudiandae magnam quos tenetur non
-              numquam blanditiis est quo incidunt quas atque animi, deserunt
-              repellendus corporis itaque. Iure.
-            </p>
-          </div>
+          <form class="contact-form" action="mailto:info@testcompany.com" method="GET">
+          
+            <label for="name">Name:</label>
+            <input required="required" type="text" name="name" maxlength="30" placeholder="Name.."/>
+            <label for="email">Email:</label>
+            <input required="required" type="email" name="email" placeholder="Email.."/>
+            <label for="comments">Comments:</label>
+            <textarea required="required" name="comments" cols="50" rows="10" placeholder="Enter your comments here..."></textarea>
+            <input type="submit" value="Submit">
+          </form>
         </div>
       </main>
 

@@ -1,0 +1,19 @@
+.grid-container {
+    grid-template-areas:
+      "head"
+      "main"
+      "foot";
+
+    grid-template-rows: 60px 1fr 285px;
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    max-width: 1000px;
+
+  }
+  .main-div {
+      margin-right: 10px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }

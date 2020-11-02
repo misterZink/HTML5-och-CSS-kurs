@@ -150,6 +150,11 @@ nav {
 .footer-links > a {
   margin-right: 1rem;
 }
+
+.bold {
+  font-weight: 700;
+}
+
 .fa {
   padding: 10px;
   font-size: 18px;
@@ -257,6 +262,41 @@ nav {
   font-size: 1.5rem;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  }
+  input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+
+
 @media only screen and (max-width: 860px) {
   .grid-container {
     grid-template-areas:
@@ -276,6 +316,11 @@ nav {
     margin: 0;
   }
 
+  .contact-form {
+    width: 80%;
+    }
+
+
   @media only screen and (max-width: 680px) {
     .nav-linklist {
       display: none;
@@ -289,6 +334,10 @@ nav {
       width: 100%;
       background-color: #1d2124;
     }
+
+    .contact-form {
+      width: 90%;
+      }
 
     .icon {
       display: flex;
