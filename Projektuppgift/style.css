@@ -87,8 +87,8 @@ nav {
 }
 
 .navbar-links a:hover {
-  color: #4CAF50;
-  border-bottom: solid 3px #4CAF50;
+  color: #4caf50;
+  border-bottom: solid 3px #4caf50;
   transition: all 0.5s ease-in-out;
 }
 
@@ -191,7 +191,7 @@ nav {
 
 .main-header {
   border-bottom: solid 1px black;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: #343a40;
   height: 50px;
   margin-top: 0;
@@ -201,7 +201,7 @@ nav {
 
 .header-news {
   border-bottom: solid 1px black;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: #343a40;
   height: 45px;
   margin: 0 0;
@@ -250,7 +250,7 @@ nav {
 
 .social-logo > a:hover {
   opacity: 0.7;
-  color: #4CAF50;
+  color: #4caf50;
 }
 
 .icon {
@@ -269,39 +269,38 @@ nav {
   width: 50%;
   margin: auto;
   text-align: left;
-  }
-  input, select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100px;
-  }
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
 
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
 
-
-  .contact-form label {
-    font-weight: 500;
-    color: #343a40;
-  }
-
-
+.contact-form label {
+  font-weight: 500;
+  color: #343a40;
+}
 
 @media only screen and (max-width: 1200px) {
   .grid-container {
@@ -324,12 +323,11 @@ nav {
 
   .contact-form {
     width: 80%;
-    }
+  }
 
-    .main-div {
-      width: 96%;
-    }
-
+  .main-div {
+    width: 96%;
+  }
 
   @media only screen and (max-width: 680px) {
     .nav-linklist {
@@ -347,7 +345,7 @@ nav {
 
     .contact-form {
       width: 90%;
-      }
+    }
 
     .icon {
       display: flex;
