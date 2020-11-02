@@ -110,7 +110,7 @@ nav {
   width: 309px;
   margin-left: 20px;
   height: 580px;
-  margin-top: 10px;
+  box-shadow: 10px 10px black;
 }
 
 .news-1,
@@ -182,9 +182,10 @@ nav {
   border: solid 1px #7b7b7b;
   border-radius: 10px;
   background-color: #dbdbdbad;
-  margin-top: 10px;
+  
   height: 580px;
-  width: 100%;
+  width: 98%;
+  box-shadow: 10px 10px black;
 }
 
 .main-header {
@@ -295,6 +296,11 @@ nav {
   }
 
 
+  .contact-form label {
+    font-weight: 500;
+    color: #343a40;
+  }
+
 
 
 @media only screen and (max-width: 860px) {
@@ -318,6 +324,10 @@ nav {
 
   .contact-form {
     width: 80%;
+    }
+
+    .main-div {
+      width: 96%;
     }
 
 
