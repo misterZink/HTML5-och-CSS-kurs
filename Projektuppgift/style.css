@@ -86,8 +86,10 @@ nav {
   color: white;
 }
 
-.nav-link:hover {
-  color: #d2d2d2;
+.navbar-links a:hover {
+  color: #4CAF50;
+  border-bottom: solid 3px #4CAF50;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav-brand {
@@ -104,13 +106,13 @@ nav {
 }
 
 .news-group {
-  background: white;
+  background: #dbdbdbad;
   border: solid 1px gray;
   border-radius: 10px;
   width: 309px;
   margin-left: 20px;
   height: 580px;
-  box-shadow: 10px 10px black;
+  box-shadow: 10px 10px #343a40;
 }
 
 .news-1,
@@ -182,15 +184,15 @@ nav {
   border: solid 1px #7b7b7b;
   border-radius: 10px;
   background-color: #dbdbdbad;
-  
   height: 580px;
   width: 98%;
-  box-shadow: 10px 10px black;
+  box-shadow: 10px 10px #343a40;
 }
 
 .main-header {
   border-bottom: solid 1px black;
-  background-color: rgb(202, 202, 202);
+  background-color: #4CAF50;
+  color: #343a40;
   height: 50px;
   margin-top: 0;
   padding-top: 5px;
@@ -199,7 +201,8 @@ nav {
 
 .header-news {
   border-bottom: solid 1px black;
-  background-color: rgb(202, 202, 202);
+  background-color: #4CAF50;
+  color: #343a40;
   height: 45px;
   margin: 0 0;
   padding-top: 10px;
@@ -247,10 +250,6 @@ nav {
 
 .social-logo > a:hover {
   opacity: 0.7;
-}
-
-.navbar-links a:hover {
-  color: #1d2124;
 }
 
 .icon {
@@ -303,7 +302,7 @@ nav {
 
 
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1200px) {
   .grid-container {
     grid-template-areas:
       "head"
@@ -355,7 +354,7 @@ nav {
     }
   }
 
-  @media only screen and (min-width: 861px) {
+  @media only screen and (min-width: 1201px) {
     .nav-linklist {
       display: flex;
       flex-direction: row;
