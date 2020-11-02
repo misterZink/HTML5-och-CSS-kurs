@@ -75,13 +75,13 @@ nav {
 }
 
 .nav-link {
-  margin-right: 15px;
+  margin-right: 30px;
   text-decoration: none;
   color: #c6c6c694;
 }
 
 .nav-link-active {
-  margin-right: 15px;
+  margin-right: 30px;
   text-decoration: none;
   color: white;
 }
@@ -109,6 +109,7 @@ nav {
   background: #dbdbdbad;
   border: solid 1px gray;
   border-radius: 10px;
+  color: #343a40;
   width: 309px;
   margin-left: 20px;
   height: 580px;
@@ -302,6 +303,8 @@ input[type="submit"]:hover {
   color: #343a40;
 }
 
+
+
 @media only screen and (max-width: 1200px) {
   .grid-container {
     grid-template-areas:
@@ -351,6 +354,8 @@ input[type="submit"]:hover {
       display: flex;
       transition: all 0.5s ease-in-out;
     }
+
+
   }
 
   @media only screen and (min-width: 1201px) {
