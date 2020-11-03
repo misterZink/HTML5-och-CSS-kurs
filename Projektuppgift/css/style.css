@@ -194,30 +194,6 @@ nav {
   border-radius: 10px 10px 0px 0px;
 }
 
-.news-articles {
-  overflow-y: scroll;
-  height: 722px;
-}
-
-.news-articles::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* Track */
-.news-articles::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-.news-articles::-webkit-scrollbar-thumb {
-  background: rgb(216, 216, 216);
-}
-
-/* Handle on hover */
-.news-articles::-webkit-scrollbar-thumb:hover {
-  background: rgb(168, 168, 168);
-}
-
 .main-content {
   padding: 0 4%;
 }

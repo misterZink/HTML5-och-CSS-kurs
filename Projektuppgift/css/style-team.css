@@ -11,14 +11,13 @@
 
 div.gallery {
   margin: 30px auto;
-  border: 3px solid #4caf50;
+  border: 3px solid  #3d8b3f;
   border-radius: 5px;
   width: 300px;
   background-color: #4caf50;
 }
 
 div.gallery:hover {
-  border: 3px solid #3d8b3f;
   opacity: 0.8;
 }
 
