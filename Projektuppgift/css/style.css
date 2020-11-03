@@ -17,7 +17,7 @@ body {
 .grid-container {
   display: grid;
   width: 100%;
-  height: 65rem;
+  height: 100vh;
   grid-template-areas:
     "head head"
     "news  main"
@@ -105,27 +105,9 @@ nav {
   margin-right: 5px;
 }
 
-.news-group {
-  background: #dbdbdbad;
-  border: solid 1px gray;
-  border-radius: 10px;
-  color: #343a40;
-  width: 309px;
-  margin-left: 20px;
-  height: 580px;
-  box-shadow: 10px 10px #343a40;
-}
-
-.news-1,
-.news-2,
-.news-3 {
-  padding: 0px 30px;
-}
-
 .footer-bottom {
   background-color: #1d2124;
   margin-top: 1rem;
-  
 }
 
 .footer-bottom > p {
@@ -135,7 +117,7 @@ nav {
 .h5-footer {
   font-size: 1.25rem;
   text-transform: uppercase;
-  color:  #4caf50;
+  color: #4caf50;
   margin-bottom: 1rem;
   font-weight: 700;
   line-height: 1.2;
@@ -147,7 +129,7 @@ nav {
   justify-content: space-evenly;
 }
 
-.adress-list {
+.footer-adress-list {
   list-style-type: none;
   padding: 0;
 }
@@ -214,7 +196,7 @@ nav {
 
 .news-articles {
   overflow-y: scroll;
-  height: 516px;
+  height: 722px;
 }
 
 .news-articles::-webkit-scrollbar {
@@ -236,7 +218,7 @@ nav {
   background: rgb(168, 168, 168);
 }
 
-.paragraphs {
+.main-content {
   padding: 0 4%;
 }
 
@@ -304,7 +286,6 @@ input[type="submit"]:hover {
   font-weight: 500;
   color: #343a40;
 }
-
 
 @media only screen and (max-width: 1200px) {
   .grid-container {
