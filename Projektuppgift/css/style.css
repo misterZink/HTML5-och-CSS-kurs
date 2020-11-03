@@ -313,10 +313,9 @@ input[type="submit"]:hover {
       transition: all 0.5s ease-in-out;
     }
   }
-
-  @media only screen and (min-width: 681px) {
-    .nav-linklist {
-      display: flex !important;
-    }
+}
+@media only screen and (min-width: 681px) {
+  #hamburger {
+    display: flex !important;
   }
 }

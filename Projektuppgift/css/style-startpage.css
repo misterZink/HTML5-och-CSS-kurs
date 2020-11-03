@@ -264,14 +264,5 @@ p {
         height: 1885px;
       }
     }
-
-    @media only screen and (min-width: 1201px) {
-      .nav-linklist {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        font-size: 1.05rem;
-      }
-    }
   }
 }
