@@ -244,11 +244,24 @@ p {
     }
 
     @media only screen and (max-width: 420px) {
+      .codeImg-startpage {
+        width: 230px;
+        height: 320px;
+      }
+      .codeImgText-startpage {
+        width: 230px;
+      }
+      .news-group {
+        width: 85%;
+      }
+    }
+
+    @media only screen and (max-width: 350px) {
       .grid-container {
-        height: 205rem;
+        height: 196rem;
       }
       .main-div {
-        height: 2045px;
+        height: 1885px;
       }
     }
 

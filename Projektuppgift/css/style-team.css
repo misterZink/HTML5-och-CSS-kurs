@@ -11,7 +11,7 @@
 
 div.gallery {
   margin: 30px auto;
-  border: 3px solid  #3d8b3f;
+  border: 3px solid #3d8b3f;
   border-radius: 5px;
   width: 300px;
   background-color: #4caf50;
@@ -74,12 +74,26 @@ div.desc {
   height: 264rem !important;
 }
 
-@media only screen and (min-width: 1101px) {
-  .grid-container {
-    height: 108rem !important;
+@media only screen and (max-width: 400px) {
+  .main-div {
+    height: 3200px !important;
   }
 
-  .main-div {
-    height: 1330px !important;
+  .grid-container {
+    height: 226rem !important;
+  }
+
+  .gallery {
+    width: 230px !important;
+  }
+
+  @media only screen and (min-width: 1101px) {
+    .grid-container {
+      height: 108rem !important;
+    }
+
+    .main-div {
+      height: 1330px !important;
+    }
   }
 }
