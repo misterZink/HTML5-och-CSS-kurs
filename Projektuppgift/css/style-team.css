@@ -64,14 +64,13 @@ div.desc {
   .photos2 {
     flex-direction: column;
   }
-}
+  .main-div {
+    height: 3800px !important;
+  }
 
-.main-div {
-  height: 3800px !important;
-}
-
-.grid-container {
-  height: 264rem !important;
+  .grid-container {
+    height: 264rem !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
